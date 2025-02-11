@@ -69,3 +69,129 @@ body{
 	height:400px;
 	background-size:100% 100%;
 }
+
+
+/* flowers falling background  */
+
+.flowers-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	overflow: hidden;
+	z-index: 9999;
+  }
+  
+  .flower {
+	position: absolute;
+	top: -50px;
+	width: 30px;
+	height: 30px;
+	background-image: url('https://pngfre.com/wp-content/uploads/flower-62-300x288.png'); /* Replace with the path to your flower image */
+	background-size: cover;
+	animation: fall linear infinite;
+  }
+  
+  @keyframes fall {
+	0% {
+	  transform: translateY(0) rotate(0deg);
+	  opacity: 1;
+	}
+	100% {
+	  transform: translateY(100vh) rotate(360deg);
+	  opacity: 0;
+	}
+  }
+  
+  .flower:nth-child(1) {
+	left: 10%;
+	animation-duration: 5s;
+	animation-delay: 0s;
+  }
+  
+  .flower:nth-child(2) {
+	left: 30%;
+	animation-duration: 7s;
+	animation-delay: 2s;
+  }
+  
+  .flower:nth-child(3) {
+	left: 50%;
+	animation-duration: 6s;
+	animation-delay: 4s;
+  }
+  
+  .flower:nth-child(4) {
+	left: 70%;
+	animation-duration: 8s;
+	animation-delay: 1s;
+  }
+  
+  .flower:nth-child(5) {
+	left: 90%;
+	animation-duration: 5s;
+	animation-delay: 3s;
+  }
+  
+  .flower:nth-child(6) {
+	left: 10%;
+	animation-duration: 5s;
+	animation-delay: 0s;
+  }
+  
+  .flower:nth-child(7) {
+	left: 30%;
+	animation-duration: 7s;
+	animation-delay: 2s;
+  }
+  
+  .flower:nth-child(8) {
+	left: 50%;
+	animation-duration: 6s;
+	animation-delay: 4s;
+  }
+  
+  .flower:nth-child(9) {
+	left: 70%;
+	animation-duration: 8s;
+	animation-delay: 1s;
+  }
+  
+  .flower:nth-child(10) {
+	left: 90%;
+	animation-duration: 6s;
+	animation-delay: 3s;
+  }
+  
+  .flower:nth-child(11) {
+	left: 10%;
+	animation-duration: 5s;
+	animation-delay: 0s;
+  }
+  
+  .flower:nth-child(12) {
+	left: 30%;
+	animation-duration: 7s;
+	animation-delay: 2s;
+  }
+
+  .flower:nth-child(13) {
+	left: 50%;
+	animation-duration: 6s;
+	animation-delay: 4s;
+  }
+  
+  .flower:nth-child(14) {
+	left: 70%;
+	animation-duration: 8s;
+	animation-delay: 1s;
+  }
+  
+  .flower:nth-child(15) {
+	left: 90%;
+	animation-duration: 6s;
+	animation-delay: 3s;
+  }
+  
